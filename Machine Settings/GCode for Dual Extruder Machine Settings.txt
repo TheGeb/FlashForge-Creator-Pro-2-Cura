@@ -1,6 +1,16 @@
+1: Select "Add a non-networked printer>Custom FFF Printer"
 
-START G-CODE
-____________
+2: Enter x(width) 255.0mm, Y(Depth) 145.0mm, Z (Height) 150mm
+
+3: Build plate shape: Rectangular
+
+4: Checkbox: Origin at center, and heated bed
+
+5: G-code Flavor: Griffin
+
+6: Number of Extruders: 2
+
+7: Start G-Code:
 
 M118 X30.00 Y30.00 Z25.80 T0 T1
 
@@ -30,10 +40,7 @@ M6 T1
 
 M651
 
-__________
-
-END G-CODE
-__________
+8: End G-Code:
 
 M104 S0 T0
 
@@ -53,15 +60,22 @@ G91
 
 M18
 
-_______________________
+9: Under Extruder 1:
 
-EXTRUDER 1 START G-CODE
-_______________________
+Change Diameter to 1.75mm
+
+10: Under Extruder 1:
+
+Under Extruder Start G-Code:
 
 M108 T0
-_______________________
 
-EXTRUDER 2 START G-CODE
-_______________________
+11: Under Extruder 2:
+
+Change Diameter to 1.75mm
+
+12: Under Extruder 2:
+
+Under Extruder Start G-Code:
 
 M108 T1
