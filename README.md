@@ -12,3 +12,6 @@ Possible scripts/plugins for the future:
 -Allow saving gcode as '.g' file extension
 
 -include print preview used in .gx files
+
+Credit to:
+- [This reddit post](https://www.reddit.com/r/FlashForge/comments/oq4twg/using_cura_with_flashforge_creator_pro_2) for the Creator Pro 2 machine settings
