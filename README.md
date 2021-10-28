@@ -5,5 +5,7 @@ Installation:
 
 2. Copy each section of G code from 'Machine Settings' and paste into the corresponding sections in your cura machine settings
 
-Planned script(s) for the future:
+Possible scripts/plugins for the future:
 -Automatically disabling one extruder to avoid switching machine settings for single extruder prints
+-Allow saving gcode as '.g' file extension
+-include print preview used in .gx files
