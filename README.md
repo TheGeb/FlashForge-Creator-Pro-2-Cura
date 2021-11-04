@@ -10,8 +10,6 @@
 
 - Automatically disabling one extruder to avoid switching machine settings for single extruder prints
 
-- Allow saving gcode as '.g' file extension
-
 - include print preview used in .gx files
 
 ### Credit to:
