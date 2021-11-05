@@ -1,6 +1,6 @@
 1: Select "Add a non-networked printer>Custom FFF Printer"
 
-2: Enter x(width) 255.0mm, Y(Depth) 145.0mm, Z (Height) 150mm
+2: Enter x(width) 225.0mm, Y(Depth) 145.0mm, Z (Height) 150mm
 
 3: Build plate shape: Rectangular
 
