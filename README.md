@@ -8,10 +8,10 @@
 
 ### Plugins:
 
-| file extension | file format      | plugin link |
-| -------------- | ---------------- | ----------- |
-| .gx            | `application/gx` | https://marketplace.ultimaker.com/app/cura/plugins/Ronoaldo/GXWriter  |
-| .g             | `text/x-dotg`    | https://marketplace.ultimaker.com/app/cura/plugins/gebfred/DotGWriter |
+| file extension | file format      | Cura marketplace | source code |
+| -------------- | ---------------- | ---------------------------------- | ----------- |
+| .gx            | `application/gx` | [GXWriter](https://marketplace.ultimaker.com/app/cura/plugins/Ronoaldo/GXWriter) | https://github.com/ronoaldo/FlashforgeFinderIntegration/tree/master/plugins/GXWriter |
+| .g             | `text/x-dotg`    | [DotGWriter](https://marketplace.ultimaker.com/app/cura/plugins/gebfred/DotGWriter) | https://github.com/TheGeb/FlashForge-Creator-Pro-2-Cura/tree/main/plugin%20source%20code/DotGWriter |
 
 ### Possible scripts/plugins for the future:
 
