@@ -1,8 +1,0 @@
-{
-    "name": "DotGWriter",
-    "author": "Geb",
-    "version": "1.0.0",
-    "description": "Writes g-code to a file as .g",
-    "api": "7.7.0",
-    "i18n-catalog": "gwriter"
-}

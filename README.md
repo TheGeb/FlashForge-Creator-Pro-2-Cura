@@ -1,21 +1,20 @@
 # FlashForge-Creator-Pro-2-Cura
 ### Installation:
 
-1. Copy the 'scripts' folder to your Cura Configuration Folder. You can find this under 'Help > Show Configuration Folder'
-2. Copy each section of G code from 'Machine Settings' and paste into the corresponding sections in your cura machine settings for the Creator Pro 2
-3. Download the plugin that you'd like from the links below
-4. To set '.gx' as the default for saving gcode, add `file_formats = application/gx` under `[metadata]` for each printer's setting file in your Configuration Folder's definition_changes. If you would prefer .g, use `file_formats = text/x-dotg`
+1. Copy the contents of each file in "resources/" to its corresponding Cura Configuration Folder. You may need to create the folder You can find this under 'Help > Show Configuration Folder'
+2. Download the GXWriter plugin from the link below
+3. Launch Cura and add the "Creator Pro 2" printer
+4. Go to "Extensions -> Post Processing -> Modify G-Code", then select "Creator Pro 2 Temperature Fix" to ensure temperatures are correctly applied in dual-extrusion modes
 
 ### Plugins:
 
 | file extension | file format      | Cura marketplace | source code |
-| -------------- | ---------------- | ---------------------------------- | ----------- |
-| .gx            | `application/gx` | [GXWriter](https://marketplace.ultimaker.com/app/cura/plugins/Ronoaldo/GXWriter) | https://github.com/ronoaldo/FlashforgeFinderIntegration/tree/master/plugins/GXWriter |
-| .g             | `text/x-dotg`    | [DotGWriter](https://marketplace.ultimaker.com/app/cura/plugins/gebfred/DotGWriter) | https://github.com/TheGeb/FlashForge-Creator-Pro-2-Cura/tree/main/plugin%20source%20code/DotGWriter |
+| -------------- | ---------------- | ---------------- | ----------- |
+| .gx            | `application/gx` | [GXWriter plugin](https://marketplace.ultimaker.com/app/cura/plugins/Ronoaldo/GXWriter) | [GXWriter github](https://github.com/ronoaldo/FlashforgeFinderIntegration/tree/master/plugins/GXWriter) |
 
-### Possible scripts/plugins for the future:
-
-- Automatically disabling one extruder to avoid switching machine settings for single extruder prints
+Note:
+"Relative Extrusion" does not appear to be supported by the Creator Pro 2. Ensure this is unchecked for all of your print profiles. You can find this setting under "Print Settings" -> "Special Modes"
 
 ### Credit to:
 - [This reddit post](https://www.reddit.com/r/FlashForge/comments/oq4twg/using_cura_with_flashforge_creator_pro_2) for the Creator Pro 2 machine settings
+- [This github repo](https://github.com/eugr/Flashforge-for-Cura/tree/master) which provided the platform mesh and definition files which I used as a template
