@@ -1,7 +1,7 @@
 # FlashForge-Creator-Pro-2-Cura
 ### Installation:
 
-1. Copy the contents of each file in "resources/" to its corresponding Cura Configuration Folder. You may need to create the folder You can find this under 'Help > Show Configuration Folder'
+1. Copy the contents of each file in "resources/" to its corresponding Cura Configuration Folder. You may need to create some of the folders. You can find the configuration folder in Cura with 'Help > Show Configuration Folder'
 2. Download the GXWriter plugin from the link below
 3. Launch Cura and add the "Creator Pro 2" printer
 4. Go to "Extensions -> Post Processing -> Modify G-Code", then select "Creator Pro 2 Temperature Fix" to ensure temperatures are correctly applied in dual-extrusion modes
