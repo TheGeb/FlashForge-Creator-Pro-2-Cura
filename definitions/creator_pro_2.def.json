@@ -75,7 +75,7 @@
         "skirt_gap": { "default_value": 10 },
         "raft_margin": { "default_value": 3 },
         "machine_use_extruder_offset_to_offset_coords": { "default_value": false },
-        "machine_start_gcode": {"value": "dual_gcode if len(extruderValues('extruder_nr')) > 1 else single_gcode" },
+        "machine_start_gcode": {"value": "dual_gcode if extruders_enabled_count > 1 else single_gcode" },
         "machine_end_gcode": {"default_value": "; **** FlashForge Creator Pro 2 end.gcode ****\nM104 S0 T0\n\nM104 S0 T1\n\nM140 S0 T0\n\nG162 Z F1800\n\nG28 X Y\n\nM132 X Y A B\n\nM652\n\nG91\n\nM18\n; **** end of end.gcode ****"}      
     }
 }
