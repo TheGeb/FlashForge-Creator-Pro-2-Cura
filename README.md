@@ -6,7 +6,7 @@
 3. Launch Cura and add the "Creator Pro 2" printer
 4. Go to "Extensions -> Post Processing -> Modify G-Code", then select "Creator Pro 2 Temperature Fix" to ensure temperatures are correctly applied in dual-extrusion modes
 
-### Plugins:
+### Prerequisite .GX File Plugin:
 
 | file extension | file format      | Cura marketplace | source code |
 | -------------- | ---------------- | ---------------- | ----------- |
